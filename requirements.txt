@@ -1,0 +1,2 @@
+irobot-edu-sdk==0.3.0       # Bluetooth SDK for Create 3
+numpy                       # small helper array ops inside MazeSolver
