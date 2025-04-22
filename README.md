@@ -9,7 +9,7 @@ This repo contains two complementary behaviors:
 | Script | Purpose | Core idea |
 |--------|---------|-----------|
 | **`MazeSolver.py`** | Explore and solve an _arbitrarily‑sized_ grid maze, then drive to a user‑defined goal | Dynamic flood‑fill: the robot updates a cost map in real time and always heads for the neighbour cell with the lowest cost|
-| **`AutonomousDelivery.py`** | Point‑to‑point “last‑meter” delivery with reactive obstacle avoidance | Continually realigns to its target while using 7 IR proximity sensors to follow walls when needed :contentReference[oaicite:1]{index=1} |
+| **`AutonomousDelivery.py`** | Point‑to‑point “last‑meter” delivery with reactive obstacle avoidance | Continually realigns to its target while using 7 IR proximity sensors to follow walls when needed|
 
 Both scripts were battle‑tested on a corn‑maze–style course and achieved **≈99 % success over 100 runs** during our senior‑design demo.
 
